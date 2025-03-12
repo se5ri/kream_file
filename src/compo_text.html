@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>components_text</title>
+    <link rel="stylesheet" href="./styles/output.css" />
+  </head>
+  <body>
+    <h1>Kream 강조, 제목 텍스트(text-h-md)</h1>
+    <span class="text-h-md font-bold">제목 텍스트</span>
+    <hr class="my-2" />
+    <h1>Kream 기본 텍스트(text-p-md)</h1>
+    <span class="text-p-md">단락 텍스트</span>
+    <hr class="my-2" />
+    <h1>Kream 기본 텍스트(text-p-sm)</h1>
+    <span class="text-p-sm">단락 텍스트</span>
+    <hr class="my-2" />
+    <h1>Kream 할인율(Discount)</h1>
+    <span class="text-kream-red text-h-md font-bold not-italic"
+      >10%<span class="sr-only">할인율</span></span
+    >
+    <hr class="my-2" />
+    <h1>Kream 구매가(Price)</h1>
+    <span class="text-h-md font-bold">76,500원</span>
+    <hr class="my-2" />
+    <h1>Kream Badge Text</h1>
+    <span
+      class="text-p-sm inline-flex items-center justify-center gap-1 rounded-sm border border-current p-1 align-middle"
+      >배지 텍스트</span
+    >
+    <hr class="my-2" />
+    <h1>Kream Badge Text(Green)</h1>
+    <span
+      class="text-kream-green text-p-sm inline-flex items-center justify-center gap-1 rounded-sm border border-current p-1 align-middle"
+      >배지 텍스트</span
+    >
+    <hr class="my-2" />
+    <h1>Kream Badge Text(Red)</h1>
+    <span
+      class="text-kream-red text-p-sm inline-flex items-center justify-center gap-1 rounded-sm border border-current p-1 align-middle"
+      >배지 텍스트</span
+    >
+    <hr class="my-2" />
+    <h1>Kream Badge (Delivery)</h1>
+    <span
+      class="text-kream-green text-p-sm inline-flex items-center justify-center gap-1 rounded-sm border border-current p-1 align-middle"
+    >
+      <svg
+        width="14"
+        height="14"
+        viewBox="0 0 14 14"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.625 1.16669H5.54167L3.5 7.58335H6.41667L4.375 12.8334H5.25L9.91667 6.41669H7.29167L9.625 1.16669Z"
+          fill="currentColor"
+        />
+      </svg>
+      빠른 배송
+    </span>
+    <hr class="my-2" />
+    <h1>Kream Section Heading</h1>
+    <h2 class="flex flex-col">
+      <span class="text-h-md font-bold">Top Brand</span>
+      <span class="text-p-md">인기 탑 브랜드</span>
+    </h2>
+    <hr class="my-2" />
+    <h1>Kream Tab</h1>
+    <button
+      tabindex="-1"
+      role="tab"
+      id="tab-1"
+      aria-controls="tab-panel-1"
+      aria-selected="false"
+      type="button"
+      class="h-9.5 border-b-4 border-current text-p-sm sm:text-p-lg font-bold"
+    >
+      탭 텍스트
+    </button>
+    <hr class="my-2" />
+    <h1>Kream Tab List</h1>
+    <div class="tablist">
+      <button
+        tabindex="-1"
+        role="tab"
+        id="tab-1"
+        aria-controls="tab-panel-1"
+        aria-selected="true"
+        type="button"
+        class="h-9.5 border-b-4 border-current text-p-sm sm:text-p-lg font-bold"
+      >
+        추천
+      </button>
+      <button
+        tabindex="-1"
+        role="tab"
+        id="tab-2"
+        aria-controls="tab-panel-2"
+        aria-selected="false"
+        type="button"
+        class="h-9.5 border-b-4 border-transparent text-p-sm sm:text-p-lg"
+      >
+        발견
+      </button>
+    </div>
+    <hr class="my-2" />
+    <h1>Kream Tab Panel</h1>
+    <div
+      role="tabpanel"
+      id="tabpanel-1"
+      aria-labelledby="tab-1"
+      class="tabpanel"
+    ></div>
+    <hr class="my-2" />
+
+  </body>
+</html>
